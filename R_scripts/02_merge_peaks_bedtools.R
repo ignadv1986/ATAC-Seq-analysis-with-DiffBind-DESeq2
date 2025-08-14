@@ -1,0 +1,1 @@
+cat CRAMP1_*_REP*.narrowPeak | sort -k1,1 -k2,2n | bedtools merge > CRAMP1_all_consensus_peaks.bed
