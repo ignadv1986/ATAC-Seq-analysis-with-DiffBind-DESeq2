@@ -25,7 +25,7 @@ To determine if CRAMP1 depletion, as previously reported for H1 downregulation, 
 7) Evaluation of overall chromatin compaction across the different samples.
 8) Log2 fold change **(LFC)** calculation and representation of the differences between samples.
 ## Results
-- PCA plots showed a good correlation between replicates, except for the GFP samples, where sample dispersion was higher.
-- Total chromatin accesibility was slighlty lower in CRAMP1-KO cells as compared to the other two conditions, as expected.
-- When comparing samples individually, WT cells showed an increased opening of 9.1% peaks and a 6.9% closing as compared to KO cells. This difference was much less pronounced when comparing KO and GFP, with 10 and 9,6% percent increased decompaction and compaction, respectively.
-- When comparing the top 100 opening and closing peaks, we could see that they clustered extremely well between WT and KO samples, showing a clear effect caused by CRAMP1 absence. However, this was not the case for GFP, where variation between replicates, probably due to technical difficulties, makes it impossible to evaluate.
+- PCA plots showed a good correlation between replicates, except for the GFP samples, where sample dispersion was higher [Figure 1](*/graphs/CRAMP1_PCA.pdf).
+- Total chromatin accesibility was slighlty lower in CRAMP1-KO cells as compared to the other two conditions, as expected [Figure 2](*/graphs/CRAMP1_overall_chromatin_accesibility.pdf).
+- When comparing the LFC of the samples individually, WT cells showed an increased opening of 9.1% peaks and a 6.9% closing as compared to KO cells. This difference was much less pronounced when comparing KO and GFP, with 10 and 9,6% percent increased decompaction and compaction, respectively [Figure 3](*/graphs/CRAMP1_LFC.pdf)..
+- When comparing the top 100 opening and closing peaks, we could see that they clustered extremely well between WT and KO samples, showing a clear effect caused by CRAMP1 absence. However, this was not the case for GFP, where variation between replicates, probably due to technical difficulties, making it impossible to evaluate [Figure 4](*/graphs/CRAMP1_heatmap.pdf).
